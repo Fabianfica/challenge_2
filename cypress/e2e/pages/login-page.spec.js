@@ -1,13 +1,10 @@
 import LoginPage from '../components/loginPage';
 const loginPage = new LoginPage
-describe('Login y mock de endpoint con POM', () => {
-    it('debe permitir el login y mockear la lista de contactos', () => {
+describe('Login test case', () => {
+    it('Login', () => {
     
-    
-   
-
-        loginPage.navigate()
-        loginPage.fillFormAndSubmit('standard_user', 'secret_sauce');
+    loginPage.navigate()
+    loginPage.fillFormAndSubmit('visual_user', 'secret_sauce');
 
         });
 });

@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 module.exports = defineConfig({
   e2e: {
-    baseUrl: "https://thinking-tester-contact-list.herokuapp.com/",
+    baseUrl: "https://www.saucedemo.com",
     specPattern: "/Users/fabian/Desktop/challenge_2/cypress/e2e/pages/*.spec.js",
     setupNodeEvents(on, config) {
       // implement node event listeners here

@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.8.1"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   }
 }

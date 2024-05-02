@@ -1,10 +1,10 @@
 class LoginPage {
     navigate() {
-      cy.visit('https://www.saucedemo.com/');
+      cy.visit('/');
     }
   
-    fillFormAndSubmit(email, password) {
-      cy.get('#user-name').type(email);
+    fillFormAndSubmit(user, password) {
+      cy.get('#user-name').type(user);
       cy.get('#password').type(password);
       cy.get('#login-button').click();
       
